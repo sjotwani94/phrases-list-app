@@ -1,0 +1,39 @@
+.container {
+    .searchFilterInputContainer {
+        .searchFilterInput {
+            border-radius: 5px;
+            padding: 10px;
+            margin: 0 10px 0 0;
+            width: 50%;
+            color: black;
+        }
+
+        .applyFilter {
+            background-color: darkorange;
+            border-radius: 15px;
+            padding: 5px;
+        }
+    }
+
+    .phrase {
+        background-color: teal;
+        color: black;
+
+        .phraseTitle {
+            background-color: rgb(235, 232, 135);
+        }
+
+        .phraseDetails {
+            margin: 10px 0 0 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+
+            .viewMoreDetails {
+                background-color: darkorange;
+                border-radius: 15px;
+                padding: 5px;
+            }
+        }
+    }
+}
